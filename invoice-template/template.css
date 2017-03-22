@@ -1,0 +1,139 @@
+@import url('fonts/dejavusans_book_macroman/stylesheet.css');
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body { font-family: 'DejaVu Sans', dejavu_sansbook; }
+
+h3 {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+p {
+    line-height:18px;
+    margin-bottom: 15px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.font-12 {
+    font-size: 12px;
+}
+
+.font-14 {
+    font-size: 14px;
+}
+
+.main-wrapper {
+    width: 792px;
+    /*height: 900px;*/
+    border: 1px solid red;
+    overflow: hidden;
+}
+
+#header1 {
+    width: 720px;
+    position: relative;
+    margin: 50px auto;
+    margin-bottom: 0px;
+    /*border: 1px solid blue;*/
+}
+
+#header1 .vystavene {
+    text-align: right;
+    width: 164px;
+    position: absolute;
+    top: 0;
+    right: 187px;
+    padding: 10px;
+    background-color: #f3f3f4;
+}
+
+#header1 .splatnost {
+    position: absolute;
+    width: 164px;
+    text-align: right;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    background-color: #f3f3f4;
+}
+
+#header1 img {
+    width: 150px;
+    margin-left: 10px;
+    padding: 18px 10px 4px 10px
+}
+
+#header2 {
+    width: 700px;
+    position: relative;
+    margin: 0px auto;
+    /*border: 1px solid green;*/
+    color: white;
+    padding: 0 10px;
+    /*background-color: #e73032;*/
+}
+
+#header2 #iban {
+    background-color: #e73032;
+    width: 316px;
+    padding: 10px;
+}
+
+#header2 #nauhradu {
+    position: absolute;
+    background-color: #e73032;
+    width: 164px;
+    text-align: right;
+    top: 0px;
+    right: 187px;
+    padding: 10px;
+}
+
+#header2 #cislofaktury {
+    position: absolute;
+    background-color: #e73032;
+    width: 164px;
+    text-align: right;
+    top: 0px;
+    right: 0;
+    padding: 10px;
+}
+
+#adresy {
+    position: relative;
+    width: 700px;
+    /*border: 1px solid black;*/
+    margin: 0 auto;
+    padding: 10px;
+    height: 350px;
+}
+
+#adresy #dodavatel {
+    position: absolute;
+    width: 295px;
+    left: 18px;
+    /*border: 1px solid red;*/
+}
+
+#adresy #odberatel {
+    position: absolute;
+    width: 325px;
+    right: 0;
+    /*border: 1px solid red;*/
+}
+
+#adresy #splitter {
+    top: 10px;
+    left: 318px;
+    position: absolute;
+    width:62px;
+    height:265px;
+}
